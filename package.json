@@ -1,0 +1,21 @@
+{
+  "name": "mypromise",
+  "version": "1.0.0",
+  "description": "build your own javascript promise ",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 index.js -o build/main.bundle.js",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nisham p",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
