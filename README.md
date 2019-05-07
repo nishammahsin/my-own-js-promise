@@ -26,10 +26,13 @@ sets result to error.
 
 ## Usage
 
-` git clone <url>
-cd my-own-js-promise
-npm install or yarn
-MyPromise = require("./index") `
+` git clone https://github.com/nishammahsin/my-own-js-promise.git`
+
+`cd my-own-js-promise`
+
+`npm install or yarn`
+
+`MyPromise = require("./index")`
 
 eg:
 `let promise = new MyPromise(resolve => { setTimeout(() => resolve('My promise'), 100); }); p.then(res => console.log(res));`
