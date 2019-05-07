@@ -4,9 +4,7 @@
   "description": "build your own javascript promise ",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --presets es2015 index.js -o build/main.bundle.js",
-    "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Nisham p",
   "license": "ISC",
